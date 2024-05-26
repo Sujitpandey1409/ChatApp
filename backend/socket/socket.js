@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: ["https://frontend-two-kappa-72.vercel.app/"],
+		origin: ["https://frontend-two-kappa-72.vercel.app"],
 		methods: ["GET", "POST"],
 	},
 });
